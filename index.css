@@ -1,0 +1,337 @@
+/* .nav-item.nav-link {
+  color:#040506;
+} */
+
+/* :root{
+ 
+  width: 1223px;
+    
+} */
+
+.btn {
+  color: #b88e2f;
+  color: #fff;
+    background: #b88e2f;
+    border-radius: 1px;
+}
+.btn-primary {
+  color: #b88e2f;
+}
+
+.navbar .icons i {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+/* mobile responsiveness*/
+@media (max-width: 768px) {
+  .navbar .icons {
+      display: none; 
+  }
+
+  .navbar .d-lg-none {
+      display: flex; 
+  }
+}
+
+
+/* Navbar css */
+
+.navbar {
+  background-color: #fff;
+  padding: 10px 20px;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-toggler-icon {
+  color: #333;
+}
+
+.navbar .nav-link {
+  color: #333;
+  font-size: 1rem;
+  margin: 0 10px;
+}
+
+.navbar .icons i {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+/* Show Only Logo and Cart Icon on Mobile */
+@media (max-width: 887px) {
+  .navbar .navbar-nav {
+      display: none !important;
+  }
+
+  .navbar-toggler {
+      display: block;
+  }
+}
+
+.navbar .nav-link {
+  color: #333;
+  font-size: 1rem;
+  margin: 0 10px;
+}
+
+.navbar-toggler {
+  color: #333;
+}
+
+.hero-section {
+  height: 733px; 
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.hero-section .bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90%;
+  background-image: url("images/background_img.webp"); 
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
+
+.hero-section .container {
+  position: relative;
+  z-index: 2; 
+}
+
+.hero-box {
+  border-radius: 8px;
+  z-index: 3;
+}
+ .hero {
+    background-color: #f8f9fa;
+    text-align: center;
+}
+.bg-whit{
+  background-color:#fff5dd;
+}
+
+.browse img, .products img, .gallery img {
+    border-radius: 8px;
+    width: 100%;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.beautiful-rooms img {
+    border-radius: 8px;
+    max-width: 86%;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+}
+
+
+  .btn-primary {
+    background-color: #b88e2f;
+    border-color: #b88e2f;
+    color: #fff;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 3px;
+}
+.btn-primary:hover {
+  background-color: #a3771e;
+  border-color: #a3771e;
+}
+
+/* Header Styling */
+header {
+  background-color: #fff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+.nav-link {
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+.nav-link:hover {
+  color: #b88e2f;
+}
+.icons i {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.icons i:hover {
+  color: #b88e2f;
+}
+
+
+.card {
+  position: relative;
+  overflow: hidden;
+}
+.card-body{
+  justify-self: center;
+}
+/* Black overlay css*/
+.hover-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease; 
+}
+
+
+.overlay-content {
+  color: #fff; 
+  text-align: center;
+}
+
+
+.card:hover .hover-overlay {
+  opacity: 1;
+}
+
+/* Buttons and icons  */
+.overlay-content button {
+  background-color: #e7ddc9;
+  border: none;
+  padding: 5px 10px;
+  color: #b88e2f;
+  cursor: pointer;
+}
+
+.overlay-content .icons span {
+ 
+  font-size: 22px;
+  margin: 0px 3px;
+  cursor: pointer;
+  transition: transform 0.3s ease; 
+
+.overlay-content .icons span:hover {
+  transform: scale(1.2); 
+  color: #f5f5f5;}
+.icons {
+  font-size: 1.2rem;
+}
+.icons i {
+  cursor: pointer;
+}
+/* General Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fef8f4;
+}
+
+.beautiful-rooms h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.beautiful-rooms p {
+  font-size: 1rem;
+  color: #666;
+  margin-top: 10px;
+}
+
+.explore-btn {
+  background-color: #d4a65a;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.explore-btn:hover {
+  background-color: #c6954e;
+}
+
+/* Carousel css */
+.carousel-inner img {
+  height: 450px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.carousel-caption h5 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.carousel-caption p {
+  font-size: 0.9rem;
+  margin: 5px 0 0;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #d4a65a;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.carousel-indicators button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ccc;
+}
+
+.carousel-indicators button.active {
+  background-color: #d4a65a;
+}
+
+/* Responsive css*/
+@media (max-width: 768px) {
+  .beautiful-rooms h1 {
+    font-size: 1.8rem;
+  }
+
+  .carousel-inner img {
+    height: 300px;
+  }
+}
+
+
+
+
